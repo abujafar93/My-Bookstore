@@ -1,0 +1,29 @@
+/* STYLE FOR ALL BOOKS DETAILS */
+/* STYLE FOR ALL BOOKS DETAILS */
+#body2 {
+  background-color: #adade9;
+}
+#heading2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: solid;
+  font-size: 30px;
+  color:white;
+}
+
+#column2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50%;
+}
+
+#details2 {
+  margin-left: 10vw;
+}
+
+.submit2 {
+  width: 100px;
+  background-color: hsl(120, 100%, 80%);
+  padding: 10px;
+  margin: 10px 0px 40px 0px;
+}

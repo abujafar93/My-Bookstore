@@ -1,0 +1,117 @@
+/***************************************************
+*
+* Author:   Abdulfatai Quadri Adewale
+* Date:     6.09.2021
+* Country:  Nigeria
+* State:    Oyo State
+* Course:   HTML & CSS ASSIGNMENT
+* venue:    Online tagged Mentoring Project
+*
+**************************************************/
+
+
+
+/* STYLE FOR THE LANDING PAGE */
+/* STYLE FOR THE LANDING PAGE */
+#body1 {
+    background-image: url(Background\ Page.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center,100%;
+    background-size:100%;
+}
+
+#navbar1 {
+    background-color: hsl(234, 44%, 78%);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    top: 0;
+    margin: 0em;
+}
+
+#navbar1 ul li {
+    padding: 10px 0px;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 30px;
+    color: white;
+}
+
+#navbar1 ul li:hover {
+    color: blue;
+}
+
+#navbar1 ul {
+    padding-right: 20px;
+}
+
+#description1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:black;
+    font-weight: bold;
+}
+
+#description1 h1 {
+    font-size: 40px;
+}
+
+#description1 p {
+    margin-top: 0;
+}
+
+figure img{
+    width: 200px;
+    height: 200px;
+    padding: 0px 25%;
+}
+
+#figures {
+    background-color: ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.books1 {
+    background-color:  hsl(234, 44%, 78%);
+    width: 30vw;
+    padding: 20px 0px;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1 {
+    margin: 10px 40%;
+}
+.button1:hover {
+    color: blue;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: bisque;
+    }
+
+    #figures {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        width: 70%;
+        margin: 1em auto;
+    }
+
+    .books1 {
+        background-color: hsl(234, 44%, 78%);
+        width: 80%;
+        justify-content: center;        
+    }
+}

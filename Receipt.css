@@ -1,0 +1,91 @@
+/* STYLE FOR THE RECEIPT */
+/* STYLE FOR THE RECEIPT */
+#receipt {
+  background-color: #adade9;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#receiptheader h2, #receiptheader p {
+  text-align: center;
+  color: white;
+}
+
+#offices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#receiptname {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#receiptdate {
+  margin-left: 8vw;
+}
+
+#receiptdate p{
+  color: white;
+  padding: 5px 0px 5px 50px;
+  background-color: black;
+  width: 14vw;
+}
+
+#purchase {
+  width: 85%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 15px;
+  empty-cells: show;
+}
+
+.arrange {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+#margin {
+  margin-left: 10vw;
+}
+
+#print {
+  background-color: hsl(120, 100%, 80%);
+  padding: 10px;
+  margin: 10px 0px 40px 0px;   
+  margin-left: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #offices {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+  }
+  #receiptname {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+
+  #receiptdate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #purchase {
+    width: 100%
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 8px;
+    padding: 8px;
+  }
+
+}

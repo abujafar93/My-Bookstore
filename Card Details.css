@@ -1,0 +1,49 @@
+/* STYLE FOR CARD DETAILS */
+/* STYLE FOR CARD DETAILS */
+#body3 {
+  background-color: #adade9;
+}
+
+#body3 h2, #body3 p {
+  color: white;
+  margin: 10px auto;
+  text-align: center;
+  text-align: justify;
+  font-style: italic;
+  width: 30%;
+}
+
+#body3 h2 {
+  font-size: 30px;
+}
+
+#body3 p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+#form3 {
+  background-color: hsl(240, 100%, 10%);
+  color: white;
+  margin: 10px auto;
+  text-align: center;
+  text-align: justify;
+  width: 50%;
+}
+
+#valve3 {
+  margin: 20px;
+}
+  
+#number3, #date3, #cvv3 {
+  width: 90%;
+  height: 50%;
+  padding: 10px;
+}
+
+#button3 {
+  width: 100%;
+  background-color: hsl(120, 100%, 80%);
+  padding: 10px;
+  margin:10px auto 40px auto;
+}
